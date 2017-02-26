@@ -25,6 +25,15 @@ describe 'navigate' do
     end
   end
 
+  describe 'new' do
+    it 'an be reached by clicking a link on the nav bar' do
+      visit posts_path
+
+      click_link("new_post_from_nav")
+      expect(page.status_code).to eq(200)
+    end
+  end
+
   describe 'creation' do
     before do
       visit new_post_path
