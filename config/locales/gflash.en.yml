@@ -1,0 +1,35 @@
+en:
+  gflash:
+    #
+    # These are the translations for the different titles.
+    #
+    titles:
+      notice: "Notice"
+      success: "Success"
+      warning: "Warning"
+      error: "Error"
+      progress: "Progress"
+    #
+    # Add default gflash messages:
+    defaults:
+      success: "Action successful!"
+      error: "Oops! Something went wrong."
+      create:
+        success: "Created successfully!"
+        error: "Something went wrong. Please check the form and try again."
+      update:
+        success: Updated successfully!"
+        error: "Something went wrong. Please check the form and try again."
+      destroy:
+        success: "Deleted successfully!"
+        error: "Something went wrong. Please check the form and try again."
+    
+    # Add gflash messages for controller actions:
+    # posts:
+    #   create:
+    #     notice: "Post created successfully!"
+    #     error: "Something went wrong"
+    #
+    # Inside controller: 
+    # gflash :notice, :error
+    #

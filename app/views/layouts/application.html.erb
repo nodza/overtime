@@ -12,10 +12,12 @@
     <div class="container">
       <div class="row">
         <div class="col">
+        <%= gflash %>
           <%= render 'shared/nav' %>
           <%= yield %>
         </div>
       </div>
     </div>
+    <%#= js add_gritter(flash[:notice], :title => "App Notification!", :sticky => false, :position => :bottom_right) %>
   </body>
 </html>
